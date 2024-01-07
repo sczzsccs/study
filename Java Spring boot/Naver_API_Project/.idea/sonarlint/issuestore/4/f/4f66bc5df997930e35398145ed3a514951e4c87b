@@ -1,0 +1,8 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ø·°Ú8ª½šİ¼1
+E
+java:S1165	"#Make this "httpStatus" field final.(ı·¥ùÿÿÿÿ8³½šİ¼1
+[
+java:S1128"9Remove this unused import 'org.example.common.Constants'.(«¾û€ıÿÿÿÿ8Ï†İ¼1
+P
+java:S1068	".Remove this unused "httpStatus" private field.(ı·¥ùÿÿÿÿ8¶½šİ¼1

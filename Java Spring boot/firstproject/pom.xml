@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.1.5</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<groupId>com.example</groupId>
+	<artifactId>firstproject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>firstproject</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web-services</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>io.springfox</groupId>-->
+<!--			<artifactId>springfox-swagger2</artifactId>-->
+<!--			<version>3.0.0</version>-->
+<!--		</dependency>-->
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.ulisesbocchio</groupId>
+			<artifactId>jasypt-spring-boot-starter</artifactId>
+			<version>3.0.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>jakarta.platform</groupId>
+			<artifactId>jakarta.jakartaee-api</artifactId>
+			<version>10.0.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+
+<!--				&lt;!&ndash; 특정 클래스를 테스트 대상에서 제외 &ndash;&gt;-->
+<!--				<configuration>-->
+<!--					<excludes>&lt;!&ndash; 파일경로 지정 (**:'/'앞에 경로 생략)-->
+<!--						어느 경로에서나 DeleteController.class파일은 테스트에서 제외-->
+<!--						테스트는 컴파일을 통해서 테스트 하기 때문에 java확장자가 아닌 class확장자 사용 &ndash;&gt;-->
+<!--						<exclude>**/DeleteController.class</exclude>-->
+<!--					</excludes>-->
+<!--					-->
+<!--					&lt;!&ndash; jacoco 설정 예시 &ndash;&gt;-->
+<!--					<rules>-->
+<!--						<rule>&lt;!&ndash; 설정 기준 &ndash;&gt;-->
+<!--							&lt;!&ndash; 기준: 패키지 BUNDLE(번들) &ndash;&gt;-->
+<!--							<element>BUDLE</element>-->
+<!--							<limits>-->
+<!--								<limit>-->
+<!--									&lt;!&ndash; counter : 체크할 기준-->
+<!--										 value : 체크할 값-->
+<!--										 INSTRUCTION : 명령,-->
+<!--										 COVEREDRATIO : 비율 &ndash;&gt;-->
+<!--									&lt;!&ndash; 패키지 BUNDLE(번들) 단위로 명령어 갯수의 비율기준으로 0.4(40%) 미만이면 에러 발생 &ndash;&gt;-->
+<!--									<counter>INSTRUCTION</counter>-->
+<!--									<value>COVEREDRATIO</value>-->
+<!--									<minimum>0.4</minimum>-->
+<!--								</limit>-->
+<!--							</limits>-->
+<!--						</rule>-->
+
+<!--						<rule>&lt;!&ndash; 설정 기준 &ndash;&gt;-->
+<!--							&lt;!&ndash; 기준: METHOD(함수) &ndash;&gt;-->
+<!--							<elemnet>METHOD</elemnet>-->
+<!--							<limits>-->
+<!--								<limit>-->
+<!--									&lt;!&ndash; counter : 체크할 기준-->
+<!--										 value : 체크할 값-->
+<!--										 LINE : 줄-->
+<!--										 TOTALCOUNT : 총 합계 &ndash;&gt;-->
+<!--									&lt;!&ndash; METHOD단위로 라인 수의 총합계가 30을 초과할 경우 에러 발생 &ndash;&gt;-->
+<!--									<counter>LINE</counter>-->
+<!--									<value>TOTALCOUNT</value>-->
+<!--									<maximum>30</maximum>-->
+<!--								</limit>-->
+<!--							</limits>-->
+<!--						</rule>-->
+<!--					</rules>-->
+<!--				</configuration>-->
+
+
+				<!-- 특정 클래스를 테스트 대상에서 제외 -->
+				<configuration>
+					<excludes><!-- 파일경로 지정 (**:'/'앞에 경로 생략)
+						어느 경로에서나 DeleteController.class파일은 테스트에서 제외
+						테스트는 컴파일을 통해서 테스트 하기 때문에 java확장자가 아닌 class확장자 사용 -->
+						<exclude>**/DeleteController.class</exclude>
+					</excludes>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<!-- jacoco Runtime Agent에 대한 property준비 -->
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+
+					<execution>
+						<!-- 하나의 프로젝트 테스트에 대한 Code Coverage리포트를 생성하는 명령어 -->
+						<id>report</id>
+						<phase>test</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+
+					<!-- Check : Code Coverage metric이 충돌하는지 확인하는 명령어 -->
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.0</version>
+				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
