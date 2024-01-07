@@ -1,9 +1,0 @@
-
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‹ø³øÿÿÿÿ
-0
-java:S1220""Move this file to a named package.
-P
-java:S1118":Add a private constructor to hide the implicit public one.(Óµ¨œ
-F
-java:S1172"+Remove this unused method parameter "args".(‹ëïŒøÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(íüüÔ
