@@ -1,7 +1,7 @@
 # 프로젝트 폴더 초기화
 git init
 
-# 원격 저장소 설
+# 원격 저장소 설정
 git remote add origin https://github.com/sczzsccs/study.git
 
 # 원격 저장소 연결 확인
