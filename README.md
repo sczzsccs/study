@@ -13,7 +13,8 @@ git remote -v
 git status
 
 - **현재 디렉토리의 모든 파일 add**<br/>
-git add .
+git add .<br/>
+git add 파일이름
 
 - **Commit 할 때 메시지 함께**<br/>
 git commit -m "Commit Message"
