@@ -25,5 +25,5 @@ git log
 git branch -M main
 
 - **원격 저장소로 push**<br/>
-git push -u origin main
+git push -u origin main<br/>
 git push -u origin master
