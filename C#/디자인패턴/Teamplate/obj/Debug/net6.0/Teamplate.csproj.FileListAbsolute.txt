@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\Teamplate.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\Teamplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\Teamplate.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\Teamplate.AssemblyInfo.cs
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\Teamplate.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\bin\Debug\net6.0\Teamplate.exe
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\bin\Debug\net6.0\Teamplate.deps.json
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\bin\Debug\net6.0\Teamplate.runtimeconfig.json
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\bin\Debug\net6.0\Teamplate.dll
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\bin\Debug\net6.0\Teamplate.pdb
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\Teamplate.dll
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\refint\Teamplate.dll
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\Teamplate.pdb
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\Teamplate.genruntimeconfig.cache
+C:\Users\user\Desktop\디자인패턴\C#\Teamplate\obj\Debug\net6.0\ref\Teamplate.dll

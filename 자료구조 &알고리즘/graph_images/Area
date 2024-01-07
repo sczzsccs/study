@@ -1,0 +1,11 @@
+
+graph Area {
+    rankdir=LR;
+    Moon -- Sola;
+    Moon -- Hewn;
+    
+    Hewn -- Moon;
+    
+    Zwi -- Sola;
+    Zwi -- Hewn;
+}

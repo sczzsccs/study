@@ -1,0 +1,14 @@
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\bin\Debug\net6.0\Iterator.exe
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\bin\Debug\net6.0\Iterator.deps.json
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\bin\Debug\net6.0\Iterator.runtimeconfig.json
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\bin\Debug\net6.0\Iterator.dll
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\bin\Debug\net6.0\Iterator.pdb
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\Iterator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\Iterator.AssemblyInfoInputs.cache
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\Iterator.AssemblyInfo.cs
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\Iterator.csproj.CoreCompileInputs.cache
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\Iterator.dll
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\refint\Iterator.dll
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\Iterator.pdb
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\Iterator.genruntimeconfig.cache
+C:\Users\tget7\OneDrive\바탕 화면\C#\디자인패턴\Iterator\obj\Debug\net6.0\ref\Iterator.dll

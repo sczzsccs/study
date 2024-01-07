@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator.csproj", "{384837F5-AD68-4F6E-B143-4D9ADDE66A21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{90DF3573-0158-4DAF-98C8-9BC711CAEC96}"
+	ProjectSection(SolutionItems) = preProject
+		ArrayIterator.cs = ArrayIterator.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{384837F5-AD68-4F6E-B143-4D9ADDE66A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384837F5-AD68-4F6E-B143-4D9ADDE66A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384837F5-AD68-4F6E-B143-4D9ADDE66A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384837F5-AD68-4F6E-B143-4D9ADDE66A21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AF34663-A21F-457F-8693-83CAA385BDAD}
+	EndGlobalSection
+EndGlobal
